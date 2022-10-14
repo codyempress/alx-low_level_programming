@@ -2,9 +2,9 @@
 /**
  * main: entry point
  * return 0 if functions succeeds
- * */
+ **/
 int main(void)
 {
-	printf ("with proper grammar, but the otcome is a piece of art,");
+	printf ("with proper grammar, but the outcome is a piece of art, ");
 	return (0);
 }
