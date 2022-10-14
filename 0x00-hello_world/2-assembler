@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc --asm main.c>$CFILE
+gcc -S $CFILE
