@@ -1,0 +1,21 @@
+#include <stdio.h>
+/**
+ * main - entry point
+ *
+ * Return: returns 0 after code is executed
+ *
+ */
+
+int main(void)
+{
+	int num;
+
+	for(num = 0, num < 10, num ++)
+	{
+		putchar(num);
+	};
+
+	putchar('\n');
+
+	return (0);
+}
