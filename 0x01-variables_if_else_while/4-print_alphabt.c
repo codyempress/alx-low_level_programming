@@ -13,7 +13,7 @@ int main (void)
 {
 	int bet;
 
-	for (bet = 'a'; bet <= 'z'; bet++;)
+	for (bet = 'a'; bet <= 'z'; bet++)
 	{
 		if (bet == 'e'){
 			continue;
