@@ -9,13 +9,14 @@
  *
  */
 
-int main (void)
+int main(void)
 {
 	int bet;
 
 	for (bet = 'a'; bet <= 'z'; bet++)
 	{
-		if (bet == 'e'){
+		if (bet == 'e')
+		{
 			continue;
 		}
 		else if (bet == 'q')
