@@ -15,9 +15,16 @@ int main (void)
 
 	for (bet = 'a'; bet <= 'z'; bet != 'e'; bet != 'q';)
 	{
+		if (bet == 'e'){
+			continue;
+		}
+		else if (bet == 'q')
+		{ continue;
+		};
+
 		putchar(bet);
-		bet++;
 	};
+
 	putchar('\n');
 
 	Return (0);
