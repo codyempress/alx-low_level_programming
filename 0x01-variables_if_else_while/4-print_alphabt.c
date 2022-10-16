@@ -12,9 +12,8 @@
 int main (void)
 {
 	int bet;
-	    bet = 'a';
 
-	for (bet <= 'z'; bet != 'e'; bet != 'q';)
+	for (bet = 'a'; bet <= 'z'; bet != 'e'; bet != 'q';)
 	{
 		putchar(bet);
 		bet++;
