@@ -2,7 +2,9 @@
 
 /**
  * _islower() - check the code for a lowercase character
- *Description - checks for lowercase characters
+ * @c : parameter to check
+ *
+ *Description: checks for lowercase characters
  *
  * Return: always 0;
  *
