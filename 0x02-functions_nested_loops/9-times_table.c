@@ -9,11 +9,11 @@
  *
  */
 
-void times_table (int n)
+void times_table (void)
 {
-	int row, col, prod;
+	int n, row, col, prod;
 
-	if (n >= 0) && (n < 15)
+	if (n >= 0 && n < 15)
 	{
 		for (row = 0; row <= n; row++)
 		{
