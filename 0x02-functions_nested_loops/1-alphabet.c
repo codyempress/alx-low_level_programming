@@ -2,7 +2,10 @@
 /*
  * main - entry poin
  *
- * Print_alphabet : prints the alphabet in lowercase
+ * print_alphabet - prints the alphabet in lowercase
+ * @void - does not take any parameters
+ *
+ * print-alphabet function prints out the aplhabet in small caps
  *
  * Return :always 0
  *
