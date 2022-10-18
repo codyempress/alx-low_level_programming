@@ -1,7 +1,5 @@
 #include "main.h"
 /*
- * main - entry poin
- *
  * print_alphabet - prints the alphabet in lowercase
  * @void - does not take any parameters
  *
