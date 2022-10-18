@@ -1,7 +1,7 @@
 #include "main.h"
 /*
  * print_alphabet - prints the alphabet in lowercase
- * @void - does not take any parameters
+ *Description: does not take any parameters
  *
  * print-alphabet function prints out the aplhabet in small caps
  *
