@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  *abs - check the absolute value;
 * @int - parameter
@@ -15,5 +15,5 @@ int _abs(int f)
 	int g;
 
 	g = abs(f);
-	return (f);
+	return (g);
 }
