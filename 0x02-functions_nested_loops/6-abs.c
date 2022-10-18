@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
 *_abs - check the absolute value;
-* @f - parameter
+* @f: parameter
 *
 * Description: check for absolute values
 *
