@@ -9,8 +9,6 @@
 
 int main()
 {
-	void print_function(void)
-	{
 	char c[26] = "abcdefghijklmnopqrstuvwxyz";
 
 	int i;
@@ -20,5 +18,4 @@ int main()
 	};
 	_putchar('\n');
 	return (0);
-	};
 };

@@ -1,6 +1,6 @@
 #include "main.h"
-#ifndef 1_MAIN_H
-#define 1_MAIN_H
+#ifndef __MAIN_H
+#define __MAIN_H
 
 /*
  *main - check the code
