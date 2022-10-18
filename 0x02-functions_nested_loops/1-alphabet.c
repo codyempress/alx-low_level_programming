@@ -1,21 +1,16 @@
 #include "main.h"
-#include "1-main.h"
 /*
  * main - entry poin
  *
  * Return :always 0
  *
  */
-
-int main()
+void print_alphabet
 {
-	char c[26] = "abcdefghijklmnopqrstuvwxyz";
-
 	int i;
-	for (i = 0; i < '27'; i++)
+	for (i = 'a'; i < 'z'; i++)
 	{
-		_putchar(c[26]);
+		_putchar(i);
 	};
 	_putchar('\n');
-	return (0);
 };
