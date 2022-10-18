@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "1-main.h"
 /*
  * main - entry poin
  *
