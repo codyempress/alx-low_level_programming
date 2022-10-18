@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <main.h>
 
 /**
  * main - entry point
@@ -9,7 +9,17 @@
  */
 
 int main(void)
-{
-	printf("_putchar\n");
+{	
+	char c[9] = '_putchar';
+
+	int i;
+
+	for (i = 0, i < 9, i++)
+	{
+		_putchar(c[i]);
+	};
+
+	_putchar('\n');
+
 	return (0);
 }
