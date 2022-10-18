@@ -2,7 +2,7 @@
 /*
  * main - entry poin
  *
- * print_alphabet - prints the alphabet in lowercase
+ * Print_alphabet : prints the alphabet in lowercase
  *
  * Return :always 0
  *
