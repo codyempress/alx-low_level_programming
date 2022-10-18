@@ -27,6 +27,4 @@ void print_natural_numbers(int n)
 			printf("%d\n", n);
 		};
 	};
-
-	return (0);
 }
