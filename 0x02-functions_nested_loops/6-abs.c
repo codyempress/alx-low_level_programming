@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- *abs - check the absolute value;
-* @int - parameter
+*_abs - check the absolute value;
+* @f - parameter
 *
 * Description: check for absolute values
 *
