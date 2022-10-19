@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int hexy = '';
+	int hexy;
 	char t = 'a';
 
 	while (hexy <= 57 && hexy >= 47)
