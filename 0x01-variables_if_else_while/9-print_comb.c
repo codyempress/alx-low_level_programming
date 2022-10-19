@@ -20,12 +20,12 @@ int main(void)
 		n++;
 		
 		if (n == 9)
-		{
+	
 			continue;
-		}
 
 		putchar(',');
 		putchar(' ');
-	};
+	}
+
 	return (0);
 }
