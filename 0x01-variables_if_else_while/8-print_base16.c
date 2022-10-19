@@ -9,17 +9,16 @@
 int main(void)
 {
 	int hexy;
-	char t = 'a';
+	char t;
 
-	while (hexy <= 57 && hexy >= 47)
+	for (hexy = 48; hexy <= 57; hexy++)
 	{
-		putchar(hexy + '0');
+		putchar(hexy);
 		hexy++;
 	}
-	while (t <= 'f')
+	for (t = 'a'; t <= 'f'; t++)
 	{
 		putchar(t);
-		t++;
 	}
 	putchar('\n');
 	return (0);
