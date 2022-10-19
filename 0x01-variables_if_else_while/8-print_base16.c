@@ -8,15 +8,19 @@
 
 int main(void)
 {
-	int hexy;
+	int hexy = 0;
+	char t = 'a';
 
-	for (hexy = 0; hexy <= 15; hexy++)
+	while (hexy <= 57 && hexy >= 47)
 	{
-		int num = putchar(hexy % 10 + '0');
-	};
-
+		putchar(hexy + '0');
+		hexy++;
+	}
+	while (t <= 'f')
+	{
+		putchar(t);
+		t++;
+	}
 	putchar('\n');
-
 	return (0);
-
 }
