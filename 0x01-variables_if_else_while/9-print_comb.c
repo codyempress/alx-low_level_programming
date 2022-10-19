@@ -19,9 +19,7 @@ int main(void)
 		putchar ((n % 10) + '0');
 		n++;
 		
-		if (n == 9)
-			continue;
-
+		if (n <= 9)
 		putchar(',');
 		putchar(' ');
 	}
