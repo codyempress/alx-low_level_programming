@@ -11,50 +11,32 @@
 
 void times_table (void)
 {
-	int n, row, col, prod;
+	int num, mult, prod;
 
-	if (n >= 0 && n < 15)
+	for (num = 0; num <= 9; num++)
 	{
-		for (row = 0; row <= n; row++)
+		for (mult = 0; mult <=9; mult++)
 		{
-			for (col = 0; col <= row; col++)
+			prod = num * mult;
+
+			if (mult == 0)
 			{
-				prod = row * col;
-				if (prod <= 9)
-				{
-					if (col != 0)
-					{
-						_putchar(",");
-						_putchar(' ');
-						_putchar(' ');
-						_putchar(' ');
-					}
-					_putchar('0' + prod);
-					
-				}
-				else if (prod > 99)
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar('0' + (prod / 100));
-					_putchar('0' + (prod / 10) % 10);
-					_putchar('0' + (prod % 10));
-				}
-				else
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar('0' + (prod / 100));
-					_putchar('0' + (prod / 10) % 10);
-					_putchar('0' + (prod % 10));
-				}
+				_putchar(''0);
 			}
-			_putchar('\n');
-
+			else if (prod <= 9)
+			{
+				_putchar(',');
+				_putcahr(' ');
+				_putchar(prod + '0');
+			}
+			else
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar((prod / 10) + '0');
+				_putchar((prod % 10) + '0');
+			}
+		}
 	}
-}
-		
-
-
-
+	_putchar('\n');
 }
