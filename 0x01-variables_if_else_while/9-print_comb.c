@@ -18,10 +18,10 @@ int main(void)
 	{
 		putchar ((n % 10) + '0');
 		n++;
-		putchar(',');
 	
 		if (n == 9)
 		continue;
+		putchar(',');
 		putchar(' ');
 	};
 	return (0);
