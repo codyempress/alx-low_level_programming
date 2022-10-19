@@ -14,12 +14,13 @@ int main(void)
 	for (hexy = 48; hexy <= 57; hexy++)
 	{
 		putchar(hexy);
-		hexy++;
 	}
+
 	for (t = 'a'; t <= 'f'; t++)
 	{
 		putchar(t);
 	}
+
 	putchar('\n');
 	return (0);
 }
