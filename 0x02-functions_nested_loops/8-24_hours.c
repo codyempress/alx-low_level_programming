@@ -3,9 +3,8 @@
 /**
  *jack_bauer - prints the hours
  *@void: no parameter
- * 
- * Return: void;
  *
+ *Return: void;
  */
 
 void jack_bauer(void)
