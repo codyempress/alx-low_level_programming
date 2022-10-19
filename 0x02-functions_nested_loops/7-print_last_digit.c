@@ -12,10 +12,19 @@
 
 int print_last_digit(int x)
 {
-	int y;
+	int y, z;
 
 	y = x % 10;
+	z = (x * -1);
 
-	_putchar(y + '0');
+	if (x > 0)
+	{
+		_putchar(y + '0');
+	}
+	else if (x > 0)
+	{
+		_putchar(z + '0');
+	}
+
 	return (y);
 }
