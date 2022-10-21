@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - tests the function 
+ * main - tests the function
  * Return: 0 if true
  */
 
