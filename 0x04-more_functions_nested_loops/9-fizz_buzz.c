@@ -8,7 +8,7 @@
  * Return: always 0;
  */
 
-int fizzbuzz(int i)
+int main(void)
 {
 	for (i = 1; i <= 100; i++)
 	{
@@ -30,5 +30,4 @@ int fizzbuzz(int i)
 		}
 		printf("\n");
 	}
-	return (0);
 }
