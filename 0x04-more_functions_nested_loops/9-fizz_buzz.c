@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * fizzbuzz - checks for multiples of 3 and 5
- * @ Return: always 0;
+ * main - checks for multiples of 3 and 5
+ * Return: always 0;
  */
 
 int main(void)
