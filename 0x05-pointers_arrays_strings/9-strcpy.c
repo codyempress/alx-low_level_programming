@@ -7,7 +7,7 @@
 * Return: a pointer to destination string
 */
 
-char *_strcopy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int index = 0;
 
