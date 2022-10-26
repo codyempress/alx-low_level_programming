@@ -8,16 +8,16 @@
  *Return: void
  */
 
- void print_rev(char *s)
+void print_rev(char *s)
 {
 	int i, count;
 
 	count = 0;
-	for (i = 0; i + 2 <= count; i+=2);
+	for (i = 0; i + 2 <= count; i += 2)
 	{
 		count += 1;
 	}
-	
+
 	for (; s[count] >= 0; count--)
 	{
 		putchar(s[count]);
