@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
 
 /**
  *puts2 - prints string in reverse
@@ -8,19 +9,15 @@
  *Return: void
  */
 
- void puts2(char *s)
+void puts2(char *str)
 {
-	int i, count;
+	int i, len;
 
-	count = 0;
-	for (i = 0; i + 2 <= count; i+=2);
+	len = strlen(str);
+
+	for (i = 0; i + 2 <= len; i += 2)
 	{
-		count += 1;
-	}
-	
-	for (; s[count] >= 0; count--)
-	{
-		putchar(s[count]);
+		putchar(str[i]);
 	}
 	putchar('\n');
 }
