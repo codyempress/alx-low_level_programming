@@ -13,7 +13,7 @@
 	int i, count;
 
 	count = 0;
-	for (i = 0; i + 2 <= len; i+=2);
+	for (i = 0; i + 2 <= count; i+=2);
 	{
 		count += 1;
 	}
