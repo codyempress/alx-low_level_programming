@@ -17,7 +17,7 @@ char *string_toupper(char *n)
 	{
 		if (n[m] <= 'z' || n[m] >= 'a')
 		{
-			toupper(n[m]);
+			n[m] = toupper(n[m]);
 		}
 	}
 	return (n);
