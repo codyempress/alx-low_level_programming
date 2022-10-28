@@ -3,16 +3,17 @@
 
 /**
  * _strncat - concatenates two strings
- * @dest: string 1
- * @src: string 2
+ * @dest: string one
+ * @src: string two
  * @n: number of src bytes
  *
- * return: result
+ * Return: result
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
+
 	i = j = 0;
 
 	while (dest[i] != '\0')
