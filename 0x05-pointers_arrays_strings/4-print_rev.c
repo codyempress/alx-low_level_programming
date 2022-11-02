@@ -16,7 +16,7 @@ void print_rev(char *s)
 
 	s[n] = '\0';
 
-	int i = 0;
+	int i;
 
 	for (*(s + n) = '\0'; *(s + n - i) <= 0; i++)
 		putchar(*(s + n - i));
