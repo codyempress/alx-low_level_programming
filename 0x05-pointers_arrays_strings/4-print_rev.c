@@ -10,7 +10,9 @@
 
 void print_rev(char *s)
 {
-	int n = sizeof(*s + 1);
+	int n;
+
+	n = sizeof(*s + 1);
 
 	s[n] = '\0';
 
