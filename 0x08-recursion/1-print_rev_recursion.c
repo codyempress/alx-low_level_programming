@@ -10,4 +10,16 @@
 
 void _print_rev_recursion(char *s)
 {
-	if 
+	int i;
+
+	i = sizeof(s);
+
+	if (i >= 0)
+	{
+		_putchar(*(s + i));
+		i--;
+
+		_print_rev_recursion(s + i);
+	}
+	_putchar('\n');
+}
