@@ -12,10 +12,13 @@ void _puts_recursion(char *s)
 {
 	int i = 0;
 
-	while (*(s + i) != '\0')
+	if (*(s + i) == '\0')
 	{
-		printf("%c", s[i]);
-		i++;
-		_puts_recursion(s);
+		return;
 	}
+
+	printf("%c", s[i]);
+	i++;
+
+	_puts_recursion(s);
 }
