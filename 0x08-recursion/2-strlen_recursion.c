@@ -9,8 +9,6 @@
 
 int _strlen_recursion(char *s)
 {
-	s = "Editor";
-
 	int i;
 
 	i = 0;
