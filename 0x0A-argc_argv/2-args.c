@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+ * main - prints all arguments
+ * @argc: count
+ * @argv: array
+ *
+ * Return: always 0
+ */
+int main(int argc, char *argv[])
+{
+	int i;
+
+	for (i = 0; argv[i] <= argv[argc]; i++)
+	{
+	printf("%s\n", argv[i]);
+	}
+return (0);
+}
