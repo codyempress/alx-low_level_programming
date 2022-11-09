@@ -3,21 +3,19 @@
 #include <string.h>
 
 /**
- *puts2 - prints string in reverse
- * @str: string
+ *puts2 - prints each character in a string
+ * @s: string
  *
  *Return: void
  */
 
-void puts2(char *str)
+void puts2(char *s)
 {
-	int i, len;
+	int i = 0;
 
-	len = strlen(str);
-
-	for (i = 0; i + 2 <= len; i += 2)
+	while (*(s + i) != '\0')
 	{
-		putchar(str[i]);
+		printf("%c\n", *(s + i));
+		i++;
 	}
-	putchar('\n');
 }
