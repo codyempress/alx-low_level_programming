@@ -26,7 +26,10 @@ char *create_array(unsigned int size, char c)
 			d[i] = c;
 	}
 
-	printf("\n");
-
-	return (&d[0]);
+	if (malloc(size) == NULL)
+	{
+		return (NULL);
+	}
+	else
+		return (&d[0]);
 }
