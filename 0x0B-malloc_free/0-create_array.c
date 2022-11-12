@@ -20,10 +20,10 @@ char *create_array(unsigned int size, char c)
 	}
 	else
 	{
-		d[0] = d[c];
+		d[0] = c;
 	}
 
 	printf("\n");
 
-	return (&d[c]);
+	return (&d[0]);
 }
