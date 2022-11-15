@@ -1,5 +1,5 @@
-#include <stdio.h>
-
+#ifndef DOG_H
+#define DOG_H
 /**
  * dog - new structure
  * @name: name
