@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 
 /**
  * _strlen_recursion - prints out length of a string in recursion
@@ -12,6 +13,6 @@ int _strlen_recursion(char *s)
 {
 	int d = strlen(s);
 
-	_putchar(d);
+	printf("%d", d);
 	return (d);
 }
