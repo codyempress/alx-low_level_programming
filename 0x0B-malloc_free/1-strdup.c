@@ -23,7 +23,7 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		return (str);
+		return (t);
 	};
 	printf("\n");
 }
