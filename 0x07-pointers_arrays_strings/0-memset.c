@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include "main.h"
-
+#include <string.h>
 /**
- * _memcpy - copies a constant bite to memory
- * @dest: destination
- * @src: source
- * n: number of bytes
+ * _memset - fills memory with constant byte
+ * @s: pointer to memory area
+ * @b: character
+ * @n: memory size
  *
- * Return: pointer to dest
+ * Return: a pointer to memory area s
  */
-
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
+	memset(s, b, n);
+	return (s);
 }
