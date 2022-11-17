@@ -1,29 +1,23 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 
 /**
- *_strcpy - locates a character in a string;
+ *_strchr - locates a character in a string;
  * @s: string
  * @c: character
  *
  * Return: the character at the lowest address
  */
 
-char *_strcpy(char *s, char c)
+char *_strchr(char *s, char c)
 {
-	int i = 0;
-	char *ch = &c;
+	char *t = strchr(s, c);
 
-	s = "lody";
-	c = 'o';
-
-	while (*(s + i) != '\0')
+	if (t == NULL)
 	{
-		if (*(s + i) == c)
-			return (ch);
-		else if (*(s + i) == '\0' && *(s + i) != c)
-			return (NULL);
-		i++;
+		return (NULL);
 	}
-
+	else
+		return(t);
 }
