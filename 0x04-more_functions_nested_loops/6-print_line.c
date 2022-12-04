@@ -9,7 +9,7 @@
 
 void print_line(int n)
 {
-	n = ' ';
+	int i = 0;
 
 	if (n <= 0)
 	{
@@ -17,10 +17,10 @@ void print_line(int n)
 	}
 	else
 	{
-		while (n > 0)
+		while (n > i)
 		{
 			_putchar(95);
-			n--;
+			i++;
 		}
 	}
 	_putchar('\n');
