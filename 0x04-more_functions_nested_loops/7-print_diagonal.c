@@ -6,7 +6,7 @@
  *
  * Return: 0
  */
-int print_diagonal(int n)
+void print_diagonal(int n)
 {
 	int i = 0;
 
@@ -22,8 +22,7 @@ int print_diagonal(int n)
 			i++;
 		}
 
-		_putchar('92');
+		_putchar(92);
 		_putchar('\n');
 	}
-	return (0);
 }
