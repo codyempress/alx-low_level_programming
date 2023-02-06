@@ -3,22 +3,21 @@
 
 /**
  * string_toupper - changes lowercase to uppercase
- * @n: pointer
+ * @s: pointer
  * Return: characters
  */
 
-char *string_toupper(char *n)
+char *string_toupper(char *s)
 {
-	int m;
+	int i = 0;
 
-	m = 0;
-
-	for (n[m] = 0; n[m] != '\0'; m++)
+	while (*(s + i))
 	{
-		if (n[m] <= 'z' || n[m] >= 'a')
+		if (s[i] >= 'a' && s[i] >= 'z')
 		{
-			n[m] = toupper(n[m]);
+			s[i] = toupper(s[i]);
 		}
+		i++;
 	}
-	return (n);
+	return (s);
 }
