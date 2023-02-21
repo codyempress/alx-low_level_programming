@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
-
+#include <stdlib.h>
 /**
  * main - adds two numbers
  * @argc: count
@@ -13,8 +13,8 @@ int main(int argc, char *argv[])
 {
 	int a, b, c;
 
-	a = *argv[1];
-	b = *argv[2];
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
 	c = a + b;
 
 	if (a > 0 && b > 0)
