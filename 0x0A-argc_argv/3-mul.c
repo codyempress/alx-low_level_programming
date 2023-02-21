@@ -19,8 +19,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		printf("Error\n");
-		return (1);
+		return (printf("Error\n"),1);
 	}
 	printf("%d\n", s);
 	return (0);
