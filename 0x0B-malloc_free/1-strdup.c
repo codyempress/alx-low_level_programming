@@ -15,7 +15,7 @@ char *_strdup(char *str)
 
 	t = malloc(sizeof(char) * strlen(str));
 
-	if (str == 0 || t == 0)
+	if (str == 0 || !t)
 	{
 		printf("\n");
 		return (NULL);
