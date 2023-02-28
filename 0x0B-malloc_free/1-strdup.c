@@ -11,7 +11,8 @@
 
 char *_strdup(char *str)
 {
-	char * t;
+	char *t;
+
 	t = malloc(sizeof(char) * strlen(str));
 
 	if (str == 0 || t == 0)
@@ -21,12 +22,13 @@ char *_strdup(char *str)
 	else
 	{
 		size_t i;
-		
-		for(i = 0; i <= strlen(str) - 1; i++)
+
+		for (i = 0; i <= strlen(str) - 1; i++)
 		{
 			t[i] = *(str + i);
 		}
 	}
+	printf("\n");
 	return (t);
 }
 
