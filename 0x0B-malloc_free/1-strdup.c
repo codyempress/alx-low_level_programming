@@ -17,7 +17,7 @@ char *_strdup(char *str)
 
 	if (str == 0 || t == NULL || str == NULL)
 	{
-		return (1);
+		return (NULL);
 	}
 	else
 	{
