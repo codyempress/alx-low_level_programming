@@ -17,18 +17,19 @@ char *_strdup(char *str)
 
 	if (str == 0 || t == 0)
 	{
+		printf("\n");
 		return (NULL);
 	}
 	else
 	{
 		size_t i;
 
+
 		for (i = 0; i <= strlen(str) - 1; i++)
 		{
 			t[i] = *(str + i);
 		}
 	}
-	printf("\n");
 	return (t);
 }
 
