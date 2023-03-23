@@ -1,8 +1,13 @@
 #include <stdio.h>
+/**
+ * main - manin function
+ *
+ * Return: 0 on success
+ */
 
-int main()
+int main(void)
 {
-	printf("%s\n",__FILE__);
+	printf("%s\n", __FILE__);
 
 	return (0);
 }
